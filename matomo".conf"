@@ -6,6 +6,7 @@ THIS IS A SNIPET OF THE FIRST LINES. I think all the relevant information is her
   • In case it matters, after installing Ghost and setting up SSL, there are two .conf files (three if you add the matomo.conf file).
     • I'm linking the other two files in this Github folder, in case you want to see if that's setting up barriers to my entry into the Matomo world.
 • the root of the matomo files, which are indeed at /var/www/
+
 With this setup, and creating a symlink over at my "sites-enabled", I'm able to pass the "-t" test. 
 However, after restarting Nginx and heading over to matomo.cafebuenvivir.com, I don't see absolutely anything.
 I don't get a 404 like I used to when I tried to have cafebuenvivir.com/matomo as matomo's url.
