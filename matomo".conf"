@@ -2,6 +2,9 @@ THIS IS A SNIPET OF THE FIRST LINES. I think all the relevant information is her
 • what I'm trying to make the subdomain (matomo.cafebuenvivir.com)
 • the location of the root file
 • the location of the .cer and .key files (which I literally just copied and pasted from the cafebuenvivir.com.conf file... I hope I'm doing this well)
+  • The cafebuenvivir.com file was created, I think, by Ghost. Ghost, when installing it, asks if you'd like to configure Nginx. I always say yes. How could I not. I wouldn't have a clue of what to do.
+  • In case it matters, after installing Ghost and setting up SSL, there are two .conf files (three if you add the matomo.conf file).
+    • I'm linking the other two files in this Github folder, in case you want to see if that's setting up barriers to my entry into the Matomo world.
 • the root of the matomo files, which are indeed at /var/www/
 With this setup, and creating a symlink over at my "sites-enabled", I'm able to pass the "-t" test. 
 However, after restarting Nginx and heading over to matomo.cafebuenvivir.com, I don't see absolutely anything.
